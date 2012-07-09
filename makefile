@@ -1,4 +1,5 @@
 test: nodeunit
 
 nodeunit:
-	nodeunit test/Parse.test.js
+	nodeunit test/Parse.Object.test.js
+	nodeunit test/Parse.User.test.js
